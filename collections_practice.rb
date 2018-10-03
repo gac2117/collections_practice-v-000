@@ -23,8 +23,6 @@ def reverse_array(array)
 end
 
 def kesha_maker(names)
-  names.each do |x|
-    one_name = x.split
-    puts one_name[2]
+  puts names.split
   end
 end
