@@ -24,7 +24,5 @@ end
 
 def kesha_maker(names)
   names.each do |x|
-    one_word = x.split('')
-    one_word.delete_at(2)
-    one_word = x.join
+    x.replace(2, $)
 end
