@@ -24,6 +24,7 @@ end
 
 def kesha_maker(names)
   names.each do |x|
-    
+    one_name = x.split
+    puts one_name[2]
   end
 end
