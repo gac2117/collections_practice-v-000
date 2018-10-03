@@ -37,3 +37,7 @@ def sum_array(array)
   array.each {|x| sum += x}
   return sum
 end
+
+def add_s(array)
+  array.map {|x| x + "s"}
+end
