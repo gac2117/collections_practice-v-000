@@ -24,5 +24,5 @@ end
 
 def kesha_maker(names)
   names.each do |x|
-    x.replace(2, $)
+    x.replace(2, "$")
 end
