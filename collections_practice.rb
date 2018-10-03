@@ -24,6 +24,6 @@ end
 
 def kesha_maker(names)
   names.each do |x|
-    x.insert(2, "$")
+    x[2] = "$"
   end
 end
