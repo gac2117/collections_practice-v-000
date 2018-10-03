@@ -43,4 +43,5 @@ def add_s(array)
   if index != 2
     element + "s"
   end
+  return new_array
 end
