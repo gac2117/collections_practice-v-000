@@ -24,5 +24,4 @@ end
 
 def kesha_maker(names)
   puts names.split
-  end
 end
